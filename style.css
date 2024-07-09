@@ -1,0 +1,107 @@
+{
+    margin:  0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+} 
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 9%;
+    padding-right: 9%;
+    box-sizing: border-box;
+    background-color: chocolate;
+}
+.navbar {
+    height: 13%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 50px;
+    cursor: pointer;
+}
+nav {
+    flex:2;
+    text-align: right ;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#fff ;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 60%;
+}
+
+hr {
+    color: #fff;
+    font-size: 100px;
+}
+
+p{
+    color:black;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+button {
+    width: 140px;
+    color: blue;
+    font-size: 14px;
+    padding: 14px 0;
+    background: white;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 240px;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 14px 28px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 12px 15px;
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pg {
+    width: 200px;
+    height: 240px;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 14px 28px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 12px 15px;
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+}
